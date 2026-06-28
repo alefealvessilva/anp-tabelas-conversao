@@ -1,4 +1,16 @@
-# 📊 Tabelas de conversão da densidade e conversão de volume (Derivados de Petroleo) a 20°C, Teor Alcoólico e Massa Específica (Etanol) a 20°C
+# 📊 Tabelas de conversão da densidade e conversão de volume (Derivados de Petróleo) a 20°C, Teor Alcoólico e Massa Específica (Etanol) a 20°C
+
+---
+
+## 🗺️ Roadmap do Projeto (Etapas)
+
+Status de mapeamento, processamento e estruturação de dados:
+
+| Status | Etapa | Descrição |
+|:---:|---|---|
+| ✅ | **1. Derivados de Petróleo (Densidade)** | Conversão da densidade observada para densidade a 20ºC (Faixas do Diesel, etc.) |
+| ⏳ | **2. Etanol (Massa Específica e Teor)** | Conversão de Massa Específica e Teor Alcoólico a 20°C |
+| ⏳ | **3. Derivados de Petróleo (Volume)** | Fatores de conversão de volume a partir da temperatura observada
 
 ---
 
@@ -12,7 +24,7 @@
 
 ---
 
-## 📈 Estatísticas do Dataset
+## 📈 Estatísticas do Dataset Atual
 
 | Métrica | Valor |
 |---------|-------|
@@ -40,10 +52,8 @@ O arquivo pivot é dividido em guias agrupadas de 10 em 10 unidades de densidade
 
 ## 🔑 Estrutura da Primary Key
 
-```
 <densidade_observada>#<temperatura_observada>
 Exemplo: 0.825#25.0
-```
 
 A primary key concatena a densidade (3 casas decimais) e a temperatura (1 casa decimal),
 permitindo identificação única de cada ponto de consulta.
@@ -54,9 +64,7 @@ permitindo identificação única de cada ponto de consulta.
 
 Consulte os dados via raw URL:
 
-```
 https://raw.githubusercontent.com/alefealvessilva/anp-tabelas-conversao/main/Convers%C3%A3o%20da%20densidade%20observada%20para%20densidade%20a%2020%C2%BAC/res-894-2022-01_db_format.json
-```
 
 Exemplo de resposta:
 ```json
@@ -69,14 +77,11 @@ Exemplo de resposta:
 }
 ```
 
----
+📋 Referência Legal
+Resolução ANP nº 894, de 26 de janeiro de 2022
 
-## 📋 Referência Legal
+Tabela I — Listagem de Derivados de Petróleo
 
-- **Resolução ANP nº 894, de 26 de janeiro de 2022**
-- Tabela I — Listagem de Derivados de Petróleo
-- Redução de densidade observada à densidade a 20 °C
+Redução de densidade observada à densidade a 20 °C
 
----
-
-<sub>🤖 Gerado em 28/06/2026</sub>
+🕛 Atualizado em 28/06/2026
