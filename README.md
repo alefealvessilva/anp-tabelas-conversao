@@ -28,10 +28,10 @@ Status de mapeamento, processamento e estruturação de dados:
 
 | Métrica | Valor |
 |---------|-------|
-| Total de registros | **5,050** |
-| Densidades observadas únicas | **50** |
+| Total de registros | **6,060** |
+| Densidades observadas únicas | **60** |
 | Temperaturas observadas únicas | **101** |
-| Faixa de densidade | **0.820** a **0.869** g/cm³ |
+| Faixa de densidade | **0.820** a **0.879** g/cm³ |
 | Faixa de temperatura | **0.0** a **50.0** °C |
 
 ---
@@ -47,6 +47,7 @@ O arquivo pivot é dividido em guias agrupadas de 10 em 10 unidades de densidade
 | `840 a 849` | 0.840 – 0.849 | 10 |
 | `850 a 859` | 0.850 – 0.859 | 10 |
 | `860 a 869` | 0.860 – 0.869 | 10 |
+| `870 a 879` | 0.870 – 0.879 | 10 |
 
 ---
 
