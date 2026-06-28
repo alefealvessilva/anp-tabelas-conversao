@@ -73,7 +73,7 @@ Exemplo de resposta:
   "0.825#25.0": {
     "densidade_observada": 0.825,
     "temperatura_observada": 25.0,
-    "densidade_20_graus": 0.8287
+    "densidade_20_graus": 0.8284
   }
 }
 ```
