@@ -19,10 +19,10 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Total de registros | **4,242** |
-| Densidades observadas únicas | **42** |
+| Total de registros | **5,050** |
+| Densidades observadas únicas | **50** |
 | Temperaturas observadas únicas | **101** |
-| Faixa de densidade | **0.800** a **0.859** g/cm³ |
+| Faixa de densidade | **0.820** a **0.869** g/cm³ |
 | Faixa de temperatura | **0.0** a **50.0** °C |
 
 ---
@@ -33,11 +33,11 @@ O arquivo pivot é dividido em guias agrupadas de 10 em 10 unidades de densidade
 
 | Guia | Faixa de Densidade (g/cm³) | Colunas |
 |------|---------------------------|---------|
-| `800 a 809` | 0.800 – 0.809 | 2 |
 | `820 a 829` | 0.820 – 0.829 | 10 |
 | `830 a 839` | 0.830 – 0.839 | 10 |
 | `840 a 849` | 0.840 – 0.849 | 10 |
 | `850 a 859` | 0.850 – 0.859 | 10 |
+| `860 a 869` | 0.860 – 0.869 | 10 |
 
 ---
 
@@ -82,4 +82,4 @@ Exemplo de resposta:
 
 ---
 
-<sub>🤖 Gerado em 27/06/2026</sub>
+<sub>🤖 Gerado em 28/06/2026</sub>
