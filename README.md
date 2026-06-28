@@ -1,7 +1,4 @@
-# 📊 Tabela de Densidades — Resolução ANP nº 894/2022
-
-> Conversão automatizada da tabela de redução de densidade a 20 °C para derivados de petróleo,
-> conforme **Resolução ANP nº 894, de 01/2022** (Anexo I — Listagem de Derivados de Petróleo).
+# 📊 Tabelas de conversão da densidade e conversão de volume (Derivados de Petroleo) a 20°C, Teor Alcoólico e Massa Específica (Etanol) a 20°C
 
 ---
 
